@@ -1,0 +1,76 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link  rel="stylesheet" type="text/css" href="stylesheets/left.css">
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+        <script type="text/javascript">
+           $(document).ready(function(){
+               $('.j-message-menu').click(function(){
+                   $('.j-message-menu').css('background','#294265');
+                   $(this).css('background','#1d2b40');
+                  
+               });
+               $('.u-icon').click(function(){
+                   $('.u-icon').css('background-positionX','-110px');
+                   $(this).css('background-positionX','-88px');
+               });
+           });
+           
+        </script>
+    </head>    
+    <style type="text/css">
+        li{
+            list-style-type: none;
+        }
+    </style>
+    <body>
+        <div class="g-doc">
+            <div id = "left" class = "g-left" style = "left:0">
+                <div class = "my-message-base my-message-left-container">
+                    <div class = "my-message-base my-message-left">
+                        <ul class="m-menu">
+                            <li class="j-index-0 j-message-menu">
+                                <a href="#">用户中心</a>
+                            </li>
+                            <li class="j-index-1 j-message-menu">
+                                <a href="#">
+                                    <i class="u-icon u-icon-info"></i>
+                                    <span class="basic">基本信息</span>
+                                </a>
+                            </li>
+                            <li class="j-index-2 j-message-menu">
+                                <a href="#">
+                                    <i class="u-icon u-icon-count"></i>
+                                    <span class="count">账户信息</span>
+                                </a>
+                            </li>
+                            <li class="j-index-3 j-message-menu">
+                                <a href="#">
+                                    <i class="u-icon u-icon-auth"></i>
+                                    <span class="auth">认证信息</span>
+                                </a>
+                            </li>
+                            <li class="j-index-4 j-message-menu">
+                                <a href="#">
+                                    <i class="u-icon u-icon-shortMsg"></i>
+                                    <span class="shortMsg">短信管理</span>
+                                </a>
+                            </li>
+                            <li class="j-index-5 j-message-menu">
+                                <a href="#">
+                                    <i class="u-icon u-icon-aList"></i>
+                                    <span class="aList">通讯录</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>

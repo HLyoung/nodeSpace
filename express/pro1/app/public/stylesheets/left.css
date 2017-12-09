@@ -1,0 +1,89 @@
+
+body, button, input, keygen, legend, select, textarea {
+    font: 14px/1.3 PingFangSC-Light,PingFang SC,Helvetica,Tahoma,Arial,Microsoft YaHei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;
+    color: #222;
+    outline: 0;
+}
+div{
+    margin:0;
+    padding:0;
+}
+.g-left{
+    top:64px;
+    bottom:0;
+    width:164px;
+    margin-right:-164px;
+    overflow:hidden;
+    position:fixed;
+}
+.my-message-base{
+    font: 14px/1.3 PingFangSC-Light,PingFang SC,Helvetica,Tahoma,Arial,Microsoft YaHei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;
+    color:  #333;
+    outline: 0;
+}
+.my-message-left-container{
+    overflow:hidden;
+    height:100%;
+    background-color:#294265;
+}
+.u-icon{
+    width: 22px;
+    height: 22px;
+    background: url(../images/icons.png) no-repeat;
+    background-size: 132px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
+ 
+}
+.u-icon-info{
+    background-position: -110px 0px;
+}
+.u-icon-count{
+    background-position: -110px -22px;
+}
+.u-icon-auth{
+    background-position: -110px -44px;
+}
+.u-icon-shortMsg{
+    background-position: -110px -132px;
+}
+.u-icon-aList{
+    background-position: -110px -264px;
+}
+.my-message-left ul li{
+    line-height: 52px;
+    border-right: 3px solid transparent;
+}
+.my-message-left  li.j-index-0{
+    font-size: 18px;
+    color: #9dabc2;
+    padding-left:30px;
+}
+.my-message-left ul li a{
+    display:block;
+    color:#9dabc2;
+    position:relative;
+    text-decoration: none;
+}
+
+.my-message-base a .my-message-base button{
+    cursor:pointer;
+}
+
+.m-menu{
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    bottom: 0;
+    left: 0;
+    font-size: 15px;
+    line-height: 42px;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+    margin: 0;
+    padding: 0;
+}
