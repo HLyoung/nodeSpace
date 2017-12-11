@@ -6,20 +6,17 @@
         <script src="http://code.jquery.com/jquery-latest.js"></script>
 
         <script type="text/javascript">
+            var clickIndex = 0;
            $(document).ready(function(){
                $('.j-message-menu').click(function(){
                    $('.j-message-menu').css('background','#294265');
+                   $('.j-message-menu').find('.u-icon').css('background-positionX','-110px');
                    $(this).css('background','#1d2b40');
-                  
-               });
-               $('.u-icon').click(function(){
-                   $('.u-icon').css('background-positionX','-110px');
-                   $(this).css('background-positionX','-88px');
+                   $(this).find('.u-icon').css('background-positionX','-88px');
                });
            });
-           
         </script>
-    </head>    
+    </head>
     <style type="text/css">
         li{
             list-style-type: none;
@@ -27,7 +24,8 @@
     </style>
     <body>
         <div class="g-doc">
-            <div id = "left" class = "g-left" style = "left:0">
+            <div id = "head" style = "height: 64px"> head </div>
+            <div id = "left" class = "g-left" style = "left:0; display: inline-block">
                 <div class = "my-message-base my-message-left-container">
                     <div class = "my-message-base my-message-left">
                         <ul class="m-menu">
@@ -69,6 +67,9 @@
 
                 </div>
             </div>
+
+            <iframe src = "global" frameborder='0' scrolling = 'auto' ></iframe>
+
         </div>
 
     </body>

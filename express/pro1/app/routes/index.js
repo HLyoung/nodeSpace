@@ -5,4 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('left');
 });
+
+router.get('/global',function(req,res,next){
+  res.render('globalLook.html');
+});
 module.exports = router;
